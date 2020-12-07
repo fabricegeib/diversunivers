@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+npx create-next-app diversunivers.com --use-npm
+
 First, run the development server:
 
 ```bash

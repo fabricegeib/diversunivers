@@ -14,7 +14,7 @@ export default function FirstPost() {
                 <p>Maecenizzle bling bling mi. Nizzle erizzle. Pimpin' condimentizzle, things non congue consectetizzle, yippiyo libero consequat purus, boofron ullamcorper owned mi nizzle quizzle. Gangster fo shizzle my nizzle elit. Ma nizzle nibh fo shizzle, owned gangsta, its fo rizzle volutpat, porttitizzle ac, tellus. Prizzle dope check it out. Nizzle fo mi izzle pimpin'. Funky fresh fo shizzle euismod felis. Donec ultrices nisl a pot. Etizzle posuere tellivizzle mi. Pot gangsta. Gizzle stuff fo shizzle, euismizzle ac, eleifend ass, malesuada sheezy, my shizz. Boom shackalack dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle nisl.</p>
                 <h2>
                     Author :
-                <Link href="/authors/fabricegeib">
+                    <Link href="/authors/fabricegeib">
                         <a>Fabrice Geib</a>
                     </Link>
                 </h2>

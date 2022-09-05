@@ -3,7 +3,7 @@
 export default function handler(req, res) {
 	res.status(200).json({
 		count: 39,
-		next: "https://swapi.dev/api/vehicles/?page=2",
+		next: "https://diversunivers.com/api/vehicles/?page=2",
 		previous: null,
 		results: [
 			{
@@ -20,12 +20,12 @@ export default function handler(req, res) {
 				vehicle_class: "wheeled",
 				pilots: [],
 				films: [
-					"https://swapi.dev/api/films/1/",
-					"https://swapi.dev/api/films/5/",
+					"https://diversunivers.com/api/films/1/",
+					"https://diversunivers.com/api/films/5/",
 				],
 				created: "2014-12-10T15:36:25.724000Z",
 				edited: "2014-12-20T21:30:21.661000Z",
-				url: "https://swapi.dev/api/vehicles/4/",
+				url: "https://diversunivers.com/api/vehicles/4/",
 			},
 		],
 	});

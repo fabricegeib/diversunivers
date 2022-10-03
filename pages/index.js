@@ -74,6 +74,7 @@ export default function Home() {
 				>
 					Powered by
 					<Image layout="fixed" width="71px" height="16px" src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+					{/* if github pages, need to add "diversunivers" before /vervel.svg */}
 				</a>
 			</footer>
 		</div>

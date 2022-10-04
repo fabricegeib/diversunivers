@@ -15,20 +15,20 @@ export default function handler(req, res) {
 				producer: "Chelsea Yamase, Rick McCallum",
 				release_date: "2021-05-19",
 				characters: [
-					"https://diversunivers.com/api/people/1/",
-					"https://diversunivers.com/api/people/2/",
+					"https://diversunivers.vercel.app/api/people/1/",
+					"https://diversunivers.vercel.app/api/people/2/",
 				],
 				planets: [
-					"https://diversunivers.com/api/planets/1/",
+					"https://diversunivers.vercel.app/api/planets/1/",
 				],
 				starships: [
-					"https://diversunivers.com/api/starships/2/",
+					"https://diversunivers.vercel.app/api/starships/2/",
 				],
 				vehicles: [
-					"https://diversunivers.com/api/vehicles/4/",
+					"https://diversunivers.vercel.app/api/vehicles/4/",
 				],
 				species: [
-					"https://diversunivers.com/api/species/1/",
+					"https://diversunivers.vercel.app/api/species/1/",
 				],
 				links: {
 					spotify: "https://open.spotify.com/track/51VtcSzMmuKyzm9uavaJ1M?si=1c915e2ec7cf4f85&nd=1",
@@ -36,7 +36,7 @@ export default function handler(req, res) {
 				},
 				created: "2022-10-03T16:20:30.880000Z",
 				edited: "2022-10-03T16:20:30.256000Z",
-				url: "https://diversunivers.com/api/documentaire/1/",
+				url: "https://diversunivers.vercel.app/api/documentaire/1/",
 			},
 		],
 	});

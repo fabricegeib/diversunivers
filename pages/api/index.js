@@ -7,7 +7,7 @@ export default function handler(req, res) {
 		pages: [
 			{ hello: "/api/hello/" },
 			{ documentaires: "/api/documentaires/" },
-			{ people: "/api/people/" },
+			{ people: "/api/peoples/" },
 			{ planets: "/api/planets/" },
 			{ films: "/api/films/" },
 			{ species: "/api/species/" },

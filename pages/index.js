@@ -18,12 +18,12 @@ export default function Home() {
 					</Link>
 				</h1>
 
-				<p className={styles.description}>
+				{/* <p className={styles.description}>
 					Get started by editing
 					<code className={styles.code}>pages/index.js</code>
-				</p>
+				</p> */}
 
-				<div className="xxx">
+				{/* <div className="xxx">
 					<h1 className="title">
 						<Link href="/posts/first-post">
 							<a>first post</a>
@@ -34,9 +34,19 @@ export default function Home() {
 							<a>api</a>
 						</Link>
 					</h1>
-				</div>
+				</div> */}
 
 				<div className={styles.grid}>
+					<a href="/posts/first-post" className={styles.card}>
+						<h3>First post &rarr;</h3>
+						<p>Made in javascript</p>
+					</a>
+
+					<a href="/api" className={styles.card}>
+						<h3>API &rarr;</h3>
+						<p>divers univers API</p>
+					</a>
+
 					<a href="https://nextjs.org/docs" className={styles.card}>
 						<h3>Documentation &rarr;</h3>
 						<p>Find in-depth information about Next.js features and API.</p>

@@ -36,7 +36,7 @@ export default function handler(req, res) {
 				},
 				created: "2022-10-03T16:20:30.880000Z",
 				edited: "2022-10-03T16:20:30.256000Z",
-				url: "https://diversunivers.vercel.app/api/documentaire/1/",
+				url: "https//diversunivers.vercel.app/api/documentaires/1/",
 			},
 		],
 	});

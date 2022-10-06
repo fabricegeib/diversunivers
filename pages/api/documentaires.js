@@ -8,6 +8,7 @@ export default function handler(req, res) {
 		results: [
 			{
 				title: "ANGELITA",
+				id: 1,
 				episode_id: 1,
 				opening_crawl:
 					"A love story that beckons you to dive deeper….\r\n",
@@ -36,7 +37,7 @@ export default function handler(req, res) {
 				},
 				created: "2022-10-03T16:20:30.880000Z",
 				edited: "2022-10-03T16:20:30.256000Z",
-				url: "https//diversunivers.vercel.app/api/documentaires/1/",
+				url: "https://diversunivers.vercel.app/api/documentaires/1/",
 			},
 		],
 	});

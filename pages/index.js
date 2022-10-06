@@ -23,6 +23,19 @@ export default function Home() {
 					<code className={styles.code}>pages/index.js</code>
 				</p>
 
+				<div className="xxx">
+					<h1 className="title">
+						<Link href="/posts/first-post">
+							<a>first post</a>
+						</Link>
+					</h1>
+					<h1 className="title">
+						<Link href="/api">
+							<a>api</a>
+						</Link>
+					</h1>
+				</div>
+
 				<div className={styles.grid}>
 					<a href="https://nextjs.org/docs" className={styles.card}>
 						<h3>Documentation &rarr;</h3>
@@ -52,18 +65,6 @@ export default function Home() {
 						</p>
 					</a>
 				</div>
-				<h1 className="title">
-					Read
-					<Link href="/posts/first-post">
-						<a>first post</a>
-					</Link>
-				</h1>
-				<h1 className="title">
-					Read
-					<Link href="/api">
-						<a>api</a>
-					</Link>
-				</h1>
 			</main>
 
 			<footer className={styles.footer}>

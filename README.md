@@ -1,6 +1,8 @@
 # Preview
 
-![](screenshot.png)
+## diversunivers.com (Next.js)
+
+![screenshot of the project](screenshot.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

@@ -56,6 +56,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+## Git
+
+Résolution du conflict :
+
+```
+git pull origin main --allow-unrelated-histories
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

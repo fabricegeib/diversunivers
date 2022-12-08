@@ -18,7 +18,8 @@ router.get("/new", (req, res, next) => {
 
 router.post("/", (req, res, next) => {
   // res.send("Create new user");
-  req.body.firstName;
+  // console.log(req.body.firstName);
+  res.send(`${req.body.firstName}`);
 });
 
 router
@@ -34,6 +35,7 @@ router
     res.send(`Delete user with ID : ${req.params.id}`);
   });
 
+const users = [{ name: "Fabrice" }, { name: "Charly" }];
 router.param("id", (req, res, next, id) => {
   //   console.log(id);
   req.user = users[id];

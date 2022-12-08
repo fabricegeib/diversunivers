@@ -1,20 +1,30 @@
 {
   "name": "diversunivers",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "express website for diversunivers",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabricegeib/diversunivers.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Fabrice Geib <fabricegeib@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabricegeib/diversunivers/issues"
+  },
+  "homepage": "https://github.com/fabricegeib/diversunivers#readme",
   "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5"
+    "nodemon": "^2.0.20"
   }
 }

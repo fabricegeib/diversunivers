@@ -1,0 +1,12 @@
+<%- include('../components/header'); -%>
+<main>
+  <h1><%= locals.title || 'Title users' %></h1>
+  <form action="/users" method="post">
+    <label
+      >first name
+      <input type="text" name="firstName" value="<%= locals.firstName %>" />
+    </label>
+    <button class="button" type="submit">Submit</button>
+  </form>
+</main>
+<%- include('../components/footer'); -%>

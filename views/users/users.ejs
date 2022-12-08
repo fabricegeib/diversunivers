@@ -1,0 +1,14 @@
+<%- include('../components/header'); -%>
+<main>
+  <h1><%= locals.title || 'Title users' %></h1>
+  <div class="description">
+    <p>A list of all users</p>
+    <ul>
+      <% users.forEach(function(user){ %>
+      <li><%= user.name %></li>
+      <% }); %>
+    </ul>
+    <a class="button" href="/users/new">create new user</a>
+  </div>
+</main>
+<%- include('../components/footer'); -%>

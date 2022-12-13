@@ -1,6 +1,10 @@
 # diversunivers (front)
 
-# Getting Started with Create React App
+## Erro
+
+- https://bobbyhadz.com/blog/react-module-not-found-error-cant-resolve-zlib
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

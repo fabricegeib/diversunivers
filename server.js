@@ -10,13 +10,21 @@ app.set("view engine", "ejs");
 
 // console.log("Server");
 
+const myMiddleware = (req, res, next) => {
+  console.log(Date.now());
+  next();
+};
+
+// app.use(myMiddleware);
+
 app.get("/", (req, res, next) => {
   console.log("GET URL : /");
   //   res.send("URL : /");
   res.render("index", { title: "divers univers" });
 });
 
-app.get("/download", (req, res, next) => {
+app.get("/download", myMiddleware, (req, res, next) => {
+  console.log("GET URL : /download");
   res.download("server.js");
 });
 

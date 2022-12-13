@@ -1,3 +1,13 @@
+:root {
+  --color-bg--light: #ffffff;
+  --color-bg--dark: #282a36;
+  --color-action: #0070f3;
+
+  --second-bg-color: #44475a;
+  --main-color: #f8f8f2;
+  --link-color: #6272a4;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,16 +20,20 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  background-color: var(--color-bg);
+}
+
 a {
   color: inherit;
-  color: #0070f3;
+  color: var(--color-action);
   text-decoration: none;
   cursor: pointer;
 }
 
 .button {
   padding: 6px 12px;
-  background-color: #0070f3;
+  background-color: var(--color-action);
   color: #ffffff;
   border-radius: 6px;
   display: flex;
